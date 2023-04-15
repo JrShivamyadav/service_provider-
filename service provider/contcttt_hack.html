@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <head>
+        <style>
+            .main{
+                height: 100%;
+                width: 100%;
+                background: #c5cacd;
+            }
+            .formmain{
+              height: 85%;
+              width: 50%;
+              margin-left: 6%;
+              margin-top: 5%;
+              background: #003152;
+              padding: 2%;
+              float: left;
+            }
+            h1{
+              font-size: 55px;
+              text-align: center;
+              color:#003152;
+              font-weight:bold;
+              font-family:Broadway; 
+            }
+            .formmain input
+            {
+              width: 97%;
+             height: 7%;
+             border-style: none;
+             background:  #CCCCCC;
+             border-radius: 10px;
+             font-weight: bold;
+             margin-top:1%;
+            }
+            .formmain textarea
+            {
+              width: 97%;
+             height: 20%;
+             border-style: none;
+             background: #CCCCCC;
+             border-radius: 10px;
+             font-weight: bold;
+             font-size: 14px;
+            }
+            button{
+              height: 7%;
+              width: 97%;
+              border-style: none;
+              border-radius: 10px;
+              background:darkorange;
+              color: #CCCCCC;
+              font-weight: bold;
+              text-align: center;
+              font-size: 18px;
+            }
+            .addr{
+              height:30%;
+              width:45%;
+              float:left;
+              border-right: 1px solid rgb(232, 78, 12); ;
+              margin-top: 18px;
+              color: #CCCCCC;
+            }
+            .map iframe{
+              height:25%;
+              width:45%;
+              float:left;
+              margin-top: 40px;
+              margin-left: 30px;
+            }
+            .addr li{
+              margin-left: 10px;
+              font-size: 15px;
+              font-weight: bold;
+            }
+            .addr h3{
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              font-size: 23px;
+            }
+            .map iframe{
+              height:25%;
+              width:45%;
+              float:left;
+              margin-top: 40px;
+              margin-left: 30px;
+            }
+            .container img{
+                height: 100%;
+                width: 40%;
+                background:white;
+                float: left;
+                padding-top: 25%;
+
+            }
+                    </style>
+    </head>
+    
+        <body>
+            
+            <div class="main">
+                <h1>-: Contact-Us :-</h1>
+                <div class="formmain">
+                  <form action="contactcode.php" method="post">
+                    <input type="text" name="name" required class="form-control" placeholder="&nbsp;&nbsp;&nbsp;&nbsp; Enter your name.." /> <br/><br />
+                    <input type="email" name="email" required class="form-control" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Enter your Email.." /> <br/><br />
+                    <input type="number" name="mob" required class="form-control" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Enter your Mobile Number.." /> <br/><br />
+                    <textarea type="text" name="msg" required class="form-control" placeholder="&nbsp;&nbsp;&nbsp;Enter any Message...."></textarea><br /><br />
+                    <button type="submit" >Submit</button>
+                  </form>
+                  <div class="addr">
+                    <h3>Address:</h3>
+                   <li><span>IET Dr Ram manohar lohiya, <br/>
+                    &nbsp;&nbsp;&nbsp;Faizabad-lucknow Road,Ayodhya</span></li>
+                      <li>+91-6387190768</li>
+                      <li>shivamyadav343343@gmail.com</li>
+                  </div>
+                  <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14250.228314568474!2d82.1562402!3d26.7585069!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcf0c1e4bad6c5e42!2sInstitute%20of%20Engineering%20and%20Technology%2C%20Faizabad!5e0!3m2!1sen!2sin!4v1664386975837!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                </div>
+            
+<div class="container" > 
+    <img src="c.jpg">
+    </div>
+            </div>  
+    </body>
+</html>
